@@ -1154,11 +1154,11 @@ section {
 }
 
 .portfolio-details .portfolio-info ul li+li {
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .portfolio-details .portfolio-description {
-  padding-top: 30px;
+  padding-top: 0px;
 }
 
 .portfolio-details .portfolio-description h2 {
