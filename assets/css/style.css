@@ -1062,7 +1062,7 @@ section {
   right: 15px;
   transition: all ease-in-out 0.3s;
   background: rgba(0, 0, 0, 0.5);
-  padding: 10px 15px;
+  padding: 25px 15px;
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
