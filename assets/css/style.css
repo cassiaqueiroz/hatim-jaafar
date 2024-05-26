@@ -263,18 +263,27 @@ h6 {
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
-    position: fixed; /* Fixado na tela */
-    right: 10px;     /* Distância da borda direita */
-    top: 10px;       /* Distância da borda superior */
-    z-index: 9999;   /* Alta prioridade para sobrepor outros elementos */
+    position: fixed;
+    /* Fixado na tela */
+    right: 10px;
+    /* Distância da borda direita */
+    top: 10px;
+    /* Distância da borda superior */
+    z-index: 9999;
+    /* Alta prioridade para sobrepor outros elementos */
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;     /* Largura do botão */
-    height: 40px;    /* Altura do botão */
-    color: #fff;     /* Cor do ícone (ajuste conforme necessário) */
-    border-radius: 50%; /* Bordas arredondadas */
-    cursor: pointer;  }
+    width: 40px;
+    /* Largura do botão */
+    height: 40px;
+    /* Altura do botão */
+    color: #fff;
+    /* Cor do ícone (ajuste conforme necessário) */
+    border-radius: 50%;
+    /* Bordas arredondadas */
+    cursor: pointer;
+  }
 
   .navbar ul {
     display: none;
@@ -843,6 +852,7 @@ section {
 .services {
   background: #361670;
 }
+
 .services .icon-box {
   padding: 30px;
   position: relative;
@@ -1065,7 +1075,7 @@ section {
   padding: 25px 15px;
 }
 
-.portfolio .portfolio-item .portfolio-info h4  {
+.portfolio .portfolio-item .portfolio-info h4 {
   font-size: 42px;
   color: #fff;
   font-weight: 600;
@@ -1080,8 +1090,8 @@ section {
 }
 
 
- .price {
-  position:sticky;
+.price {
+  position: sticky;
   font-size: 24px;
   top: calc(50% - 18px);
   color: #fff;
@@ -1195,113 +1205,35 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
-.pricing .box {
-  padding: 20px;
-  background: #fff;
-  text-align: center;
+.custom-whatsapp-button {
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
-  border-radius: 5px;
-  position: relative;
-  overflow: hidden;
-}
-
-.pricing h3 {
-  font-weight: 400;
-  margin: -20px -20px 20px -20px;
-  padding: 20px 15px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #777777;
-  background: #f8f8f8;
-}
-
-.pricing h4 {
-  font-size: 36px;
-  color: #361670;
-  font-weight: 600;
-  font-family: "Cocomat Pro", sans-serif;
-  margin-bottom: 20px;
-}
-
-.pricing h4 sup {
-  font-size: 20px;
-  top: -12px;
-  left: -3px;
-}
-
-.pricing h4 span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.pricing ul {
-  padding: 0;
-  list-style: none;
-  color: #444444;
+  margin: 15px;
   text-align: center;
-  line-height: 20px;
-  font-size: 14px;
-}
-
-.pricing ul li {
-  padding-bottom: 16px;
-}
-
-.pricing ul i {
-  color: #361670;
-  font-size: 18px;
-  padding-right: 4px;
-}
-
-.pricing ul .na {
-  color: #ccc;
-  text-decoration: line-through;
-}
-
-.pricing .btn-wrap {
-  margin: 20px -20px -20px -20px;
-  padding: 20px 15px;
-  background: #f8f8f8;
-  text-align: center;
-}
-
-.pricing .btn-buy {
-  background: #361670;
-  display: inline-block;
-  padding: 8px 35px;
+  align-items: center;
+  display: flex;
+  margin-right: 8px;
+  justify-content: center;
   border-radius: 40px;
-  color: #fff;
-  transition: none;
   font-size: 14px;
-  font-weight: 400;
   font-family: "Cocomat Pro", sans-serif;
-  font-weight: 600;
+  padding-top: 22px;
+  font-weight: 400;
+  text-decoration: none;
   transition: 0.3s;
+  width: 170px;
+  height: 22px;
+  position: absolute;
+  top: 5px;
+  z-index: 1;
+  background: #361670;
+  color: #fff;
 }
 
-.pricing .btn-buy:hover {
+.custom-whatsapp-button:hover {
   background: #25FDE9;
   color: #361670;
 }
 
-.pricing .featured h3 {
-  color: #fff;
-  background: #361670;
-}
-
-.pricing .advanced {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: #361670;
-  color: #fff;
-}
 
 /*--------------------------------------------------------------
 # Contact Me
