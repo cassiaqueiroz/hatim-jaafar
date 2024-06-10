@@ -1,10 +1,3 @@
-/**
-* Template Name: Laura
-* Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -1274,14 +1267,14 @@ section {
 }
 
 .contact .social-links a {
-  font-size: 18px;
+  font-size: 17px;
   display: inline-block;
   color: #361670;
   line-height: 1;
-  margin: 0 8px;
+  margin: 0 6px;
   transition: 0.3s;
   padding: 14px;
-  border-radius: 50%;
+  border-radius: 50px;
   border: 1px solid #fff;
 }
 
